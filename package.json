@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Weather Widget powered by React and Babel support",
   "main": "index.js",
-  "repository": "git@github.com:StephenGrider/ReduxSimpleStarter.git",
+  "repository": "git@github.com:dbaronov/weather-widget-react-noredux.git",
   "scripts": {
     "start": "webpack-dev-server"
   },
