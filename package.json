@@ -5,7 +5,9 @@
   "main": "index.js",
   "repository": "git@github.com:dbaronov/weather-widget-react-noredux.git",
   "scripts": {
-    "start": "webpack-dev-server"
+    "start": "webpack-dev-server",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "author": "Deniss Baronov",
   "license": "ISC",
@@ -31,6 +33,8 @@
     "react-redux": "^4.0.0",
     "react-router": "^2.0.1",
     "redux": "^3.0.4",
-    "youtube-api-search": "0.0.5"
-  }
+    "youtube-api-search": "0.0.5",
+    "snyk": "^1.192.0"
+  },
+  "snyk": true
 }
